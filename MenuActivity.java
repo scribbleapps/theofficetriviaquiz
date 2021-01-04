@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class MenuActivity extends AppCompatActivity implements BillingHelper.BillingClientStarted, BillingHelper.QueryPurchasesCompleted {
     private static final String TAG = "MenuActivity";
 
-    private static final String KEY_PREMIUM_PURCHASED = "premiumPurchased"; // Don't ever change this
+    public static final String KEY_PREMIUM_PURCHASED = "premiumPurchased"; // Don't ever change this
     public static final String AUDIO_PREFERENCE = "audioPreference";
     public static final String SHARED_PREFS = "sharedPrefs";
 
